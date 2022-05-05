@@ -3,7 +3,6 @@ package com.xenon.demo.student;
 import javax.persistence.*;
 import java.time.LocalDate;
 
-@SuppressWarnings("unused")
 @Entity
 @Table
 public class Student {
@@ -39,46 +38,6 @@ public class Student {
         this.name = name;
         this.email = email;
         this.dateOfBirth = dateOfBirth;
-        this.age = age;
-    }
-
-    public long getId() {
-        return id;
-    }
-
-    public void setId(long id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public LocalDate getDateOfBirth() {
-        return dateOfBirth;
-    }
-
-    public void setDateOfBirth(LocalDate dateOfBirth) {
-        this.dateOfBirth = dateOfBirth;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
         this.age = age;
     }
 
